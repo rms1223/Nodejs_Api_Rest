@@ -1,0 +1,54 @@
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Collection {
+  s: {
+    db: Db { s: [Object] },
+    options: {
+      raw: false,
+      promoteLongs: true,
+      promoteValues: true,
+      promoteBuffers: false,
+      ignoreUndefined: false,
+      bsonRegExp: false,
+      serializeFunctions: false,
+      fieldsAsRaw: {},
+      readPreference: [ReadPreference]
+    },
+    namespace: MongoDBNamespace {
+      db: 'dashboard_devices_status',
+      collection: 'devices'
+    },
+    pkFactory: { createPk: [Function: createPk] },
+    readPreference: ReadPreference {
+      mode: 'primary',
+      tags: undefined,
+      hedge: undefined,
+      maxStalenessSeconds: undefined,
+      minWireVersion: undefined
+    },
+    bsonOptions: {
+      raw: false,
+      promoteLongs: true,
+      promoteValues: true,
+      promoteBuffers: false,
+      ignoreUndefined: false,
+      bsonRegExp: false,
+      serializeFunctions: false,
+      fieldsAsRaw: {}
+    },
+    readConcern: undefined,
+    writeConcern: undefined,
+    slaveOk: false
+  }
+}
+[]
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000
+Servidor Iniciado en el Puerto 4000

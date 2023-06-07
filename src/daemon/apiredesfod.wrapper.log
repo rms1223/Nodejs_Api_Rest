@@ -1,0 +1,192 @@
+2022-03-04 22:06:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-04 22:06:26 - Started 9444
+2022-03-04 22:09:09 - Stopping apiredesfod.exe
+2022-03-04 22:09:09 - ProcessKill 9444
+2022-03-04 22:09:10 - Shutdown exception
+Message:Clase no registrada
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-03-04 22:09:46 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-04 22:09:46 - Started 8136
+2022-03-20 00:00:08 - Stopping apiredesfod.exe
+2022-03-20 00:00:08 - ProcessKill 8136
+2022-03-20 00:00:09 - Shutdown exception
+Message:Clase no registrada
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-03-20 00:00:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-20 00:00:58 - Started 8020
+2022-03-21 00:12:17 - Stopping apiredesfod.exe
+2022-03-21 00:12:17 - ProcessKill 8020
+2022-03-21 00:12:17 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-03-24 22:46:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-24 22:46:22 - Started 7244
+2022-03-27 00:09:05 - Stopping apiredesfod.exe
+2022-03-27 00:09:05 - ProcessKill 7244
+2022-03-27 00:09:05 - Found child process: 7264 Name: conhost.exe
+2022-03-27 00:09:05 - Found child process: 6604 Name: node.exe
+2022-03-27 00:09:05 - Stopping process 7264
+2022-03-27 00:09:05 - Send SIGINT 7264
+2022-03-27 00:09:05 - SIGINT to 7264 failed - Killing as fallback
+2022-03-27 00:09:05 - Stopping process 6604
+2022-03-27 00:09:05 - Send SIGINT 6604
+2022-03-27 00:09:05 - SIGINT to 6604 failed - Killing as fallback
+2022-03-27 00:09:05 - Stopping process 7244
+2022-03-27 00:09:05 - Send SIGINT 7244
+2022-03-27 00:09:05 - SIGINT to 7244 failed - Killing as fallback
+2022-03-27 00:09:05 - Finished apiredesfod.exe
+2022-04-11 20:43:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-11 20:43:22 - Started 21904
+2022-04-11 20:44:33 - Stopping apiredesfod.exe
+2022-04-11 20:44:33 - ProcessKill 21904
+2022-04-11 20:44:34 - Found child process: 5508 Name: conhost.exe
+2022-04-11 20:44:34 - Found child process: 16800 Name: node.exe
+2022-04-11 20:44:34 - Stopping process 5508
+2022-04-11 20:44:34 - Send SIGINT 5508
+2022-04-11 20:44:34 - SIGINT to 5508 failed - Killing as fallback
+2022-04-11 20:44:34 - Stopping process 16800
+2022-04-11 20:44:34 - Send SIGINT 16800
+2022-04-11 20:44:34 - SIGINT to 16800 failed - Killing as fallback
+2022-04-11 20:44:34 - Stopping process 21904
+2022-04-11 20:44:34 - Send SIGINT 21904
+2022-04-11 20:44:34 - SIGINT to 21904 failed - Killing as fallback
+2022-04-11 20:44:34 - Finished apiredesfod.exe
+2022-04-12 11:13:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 11:13:40 - Started 7960
+2022-04-12 11:31:55 - Stopping apiredesfod.exe
+2022-04-12 11:31:55 - ProcessKill 7960
+2022-04-12 11:31:55 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-04-12 11:32:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 11:32:29 - Started 6400
+2022-04-12 13:32:17 - Stopping apiredesfod.exe
+2022-04-12 13:32:17 - ProcessKill 6400
+2022-04-12 13:32:17 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-04-12 13:32:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 13:32:54 - Started 7224
+2022-04-12 16:17:33 - Stopping apiredesfod.exe
+2022-04-12 16:17:33 - ProcessKill 7224
+2022-04-12 16:17:33 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-04-12 16:18:07 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 16:18:07 - Started 6492
+2022-04-12 16:24:17 - Stopping apiredesfod.exe
+2022-04-12 16:24:17 - ProcessKill 6492
+2022-04-12 16:24:17 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-04-12 16:24:53 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 16:24:53 - Started 7928
+2022-04-12 17:13:03 - Stopping apiredesfod.exe
+2022-04-12 17:13:03 - ProcessKill 7928
+2022-04-12 17:13:03 - Shutdown exception
+Message:Clase no registrada
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-04-12 17:13:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-12 17:13:36 - Started 7496
+2022-04-15 23:52:31 - Stopping apiredesfod.exe
+2022-04-15 23:52:31 - ProcessKill 7496
+2022-04-15 23:52:31 - Found child process: 7548 Name: conhost.exe
+2022-04-15 23:52:31 - Found child process: 8092 Name: node.exe
+2022-04-15 23:52:32 - Stopping process 7548
+2022-04-15 23:52:32 - Send SIGINT 7548
+2022-04-15 23:52:32 - SIGINT to 7548 failed - Killing as fallback
+2022-04-15 23:52:32 - Stopping process 8092
+2022-04-15 23:52:32 - Send SIGINT 8092
+2022-04-15 23:52:32 - SIGINT to 8092 failed - Killing as fallback
+2022-04-15 23:52:32 - Stopping process 7496
+2022-04-15 23:52:32 - Send SIGINT 7496
+2022-04-15 23:52:32 - SIGINT to 7496 failed - Killing as fallback
+2022-04-15 23:52:32 - Finished apiredesfod.exe
+2022-04-23 02:07:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\RandyMS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Escritorio\SistemaFodCompletoActualizado\SistemaConexionApis\src\Server.js --log "APIREDESFOD wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-23 02:07:33 - Started 6912
+2022-04-23 16:17:05 - Stopping apiredesfod.exe
+2022-04-23 16:17:05 - ProcessKill 6912
+2022-04-23 16:17:06 - Found child process: 6948 Name: conhost.exe
+2022-04-23 16:17:06 - Found child process: 8668 Name: node.exe
+2022-04-23 16:17:06 - Stopping process 6948
+2022-04-23 16:17:06 - Send SIGINT 6948
+2022-04-23 16:17:06 - SIGINT to 6948 failed - Killing as fallback
+2022-04-23 16:17:06 - Stopping process 8668
+2022-04-23 16:17:06 - Send SIGINT 8668
+2022-04-23 16:17:06 - SIGINT to 8668 failed - Killing as fallback
+2022-04-23 16:17:06 - Stopping process 6912
+2022-04-23 16:17:06 - Send SIGINT 6912
+2022-04-23 16:17:06 - SIGINT to 6912 failed - Killing as fallback
+2022-04-23 16:17:06 - Finished apiredesfod.exe

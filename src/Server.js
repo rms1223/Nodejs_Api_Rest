@@ -1,5 +1,7 @@
+require("dotenv").config()
 const express = require('express');
 const cors = require("cors")
+
 
 const app = express();
 app.set('port', process.env.Port || 4000);
@@ -7,12 +9,18 @@ app.set('port', process.env.Port || 4000);
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(require("./routes/default"));
+app.use(require(process.env.API_ROUTES_DEFAULT));
 
-app.timeout = 0;
-app.listen(app.get("port"), (error) => {
-    if (error) {
-        console.log("Error al Ejecutar el Servidor ");
+app.listen(app.get("port"), (err) => {
+    try {
+        if (err) {
+            console.log("Error al Iniciar el Puerto" + err);
+        }
+        console.log("Servidor Iniciado en el Puerto " + app.get("port"));
+    } catch (error) {
+        res.status(500).json({
+            "Message": "Error "+error,
+        });
     }
-
+    
 });

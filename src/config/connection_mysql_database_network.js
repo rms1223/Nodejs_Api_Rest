@@ -1,3 +1,4 @@
+require("dotenv").config()
 const mysql = require("promise-mysql")
 
 const conection_mysql_database_network = mysql.createPool({

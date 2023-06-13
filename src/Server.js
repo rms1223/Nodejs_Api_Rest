@@ -1,6 +1,7 @@
-require("dotenv").config()
+require("dotenv").config();
 const express = require('express');
-const cors = require("cors")
+const cors = require("cors");
+const Route = require("./config/path_api_routes")
 
 
 const app = express();
@@ -9,7 +10,7 @@ app.set('port', process.env.Port || 4000);
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(require(process.env.API_ROUTES_DEFAULT));
+app.use(require(Route.API_ROUTES_DEFAULT));
 
 app.listen(app.get("port"), (err) => {
     try {

@@ -1,5 +1,6 @@
 const express = require("express");
 require("dotenv").config()
+const Route = require("../config/path_api_routes")
 const APP = express();
 const { get_name_centroeducativo_from_code } = require("../database/database_mysql_inventory_operations");
 const { verify_token } = require("../middlewares/authToken");
@@ -31,12 +32,12 @@ APP.get('/api/institucion/:codigoCE', verify_token, async function(req, res) {
     
 });
 
-APP.use(require(process.env.API_ROUTES_DEVICES));
-APP.use(require(process.env.API_ROUTES_INVENTORY));
-APP.use(require(process.env.API_ROUTES_ACEPTACIONES));
-APP.use(require(process.env.API_ROUTES_TOOLS));
-APP.use(require(process.env.API_ROUTES_MAIL));
-APP.use(require(process.env.API_ROUTES_REGISTER_INFORMATION));
+APP.use(require(Route.API_ROUTES_DEVICES));
+APP.use(require(Route.API_ROUTES_INVENTORY));
+APP.use(require(Route.API_ROUTES_ACEPTACIONES));
+APP.use(require(Route.API_ROUTES_TOOLS));
+APP.use(require(Route.API_ROUTES_MAIL));
+APP.use(require(Route.API_ROUTES_REGISTER_INFORMATION));
 
 
 module.exports = APP;

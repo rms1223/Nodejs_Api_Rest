@@ -1,0 +1,31 @@
+module.exports = {
+    MYSQL_NETWORK_QUERY_ALLDEVICES:"SELECT * FROM select_devices",
+    MYSQL_NETWORK_QUERY_INFROMATION_DEVICE_FROM_SERIAL:"SELECT * FROM select_devices WHERE serial = ?",
+    MYSQL_NETWORK_QUERY_ALLDEVICES_FROM_NAME:"SELECT * FROM select_devices WHERE nombre  LIKE ?",
+    MYSQL_NETWORK_QUERY_TOKEN:"SELECT token_api_fod from token_api_fod WHERE token_api_fod = ?",
+    MYSQL_NETWORK_QUERY_TEMPLATE_NAME:"SELECT nombretemplate FROM template WHERE codigoCe = ?",
+    MYSQL_NETWORK_QUERY_STATUS_REGISTER:"SELECT estado FROM estado_db_registros WHERE idActualizacion = 001",
+    MYSQL_NETWORK_QUERY_INFORMATION_IN_DASHBOARD:"SELECT dashboard, total FROM total_equipos_dashboards",
+    MYSQL_NETWORK_QUERY_ARUBA_TOKEN:"SELECT token FROM token_access_dashboard WHERE nombre = ?",
+    MYSQL_INVENTORY_QUERY_ALL_GENERAL_iNVENTORY:"SELECT * FROM buscar_inventario_general",
+    MYSQL_INVENTORY_QUERY_SEARCH_DEVICES_ASSIGNED:"SELECT * FROM buscar_equipos_asignados_instituciones WHERE Codigo = ?",                                               
+    MYSQL_INVENTORY_QUERY_DEVICES_FROM_CODE_IN_CENTROEDUCATIVO:"SELECT * FROM buscar_inventario_en_institucion WHERE Codigo = ?",
+    MYSQL_INVENTORY_QUERY_DEVICES_IN_STOCK:"SELECT * FROM buscar_inventario_en_stock WHERE Cartel = ?",
+    MYSQL_INVENTORY_QUERY_INFORMATION_REDEDUCATIVA:"select * from buscar_ce_rede_ducativa where codigo_ce = ?",
+    MYSQL_INVENTORY_QUERY_ALL_VIEW_STATUS_ACCEPTANCES:"SELECT * FROM view_estado_aceptaciones",
+    MYSQL_INVENTORY_QUERY_VIEW_STATUS_ACCEPTANCES_FROM_CODE:"SELECT * FROM view_estado_aceptaciones where Centro_Educativo = ?",
+    MYSQL_INVENTORY_QUERY_NAME_CENTROEDUCATIVO:"SELECT centro_educativo FROM sistema_fod_cableado.instituciones where codigo = ?",
+    MYSQL_INVENTORY_QUERY_INSERT_STATUS_ACCEPTANCES:"INSERT INTO estado_aceptaciones SET ?",
+    MYSQL_INVENTORY_QUERY_GET_IDCARTEL:"select id_cartel from carteles",
+    MYSQL_INVENTORY_QUERY_GET_BRAND_DEVICE:"select * from sistema_fod_cableado.view_cantidadequiposdashboard WHERE marca = ?",
+    MYSQL_INVENTORY_QUERY_GET_INFORMATION_CENTROEDUCATIVO:"SELECT distinct(informacion.id_categoria), informacion.codigo_institucion,insti.centro_educativo,ubicacion.provincia,ubicacion.distrito,ubicacion.canton " +
+                                                          "FROM distribucion_categoria as informacion " +
+                                                          "INNER JOIN institucion_ubicacion as ubicacion ON ubicacion.codigo = informacion.codigo_institucion " +
+                                                          "INNER JOIN instituciones as insti ON insti.codigo =  informacion.codigo_institucion  where codigo_institucion = ? ",
+    MYSQL_INVENTORY_QUERY_INSERT_VISITS_CONTROL: "INSERT INTO registrovisitascontrol SET ?",
+    MYSQL_INVENTORY_QUERY_INSERT_PASSWORD_CHANGE:"INSERT INTO cambioscontrasena SET ?",
+    MYSQL_INVENTORY_QUERY_GET_PASSWORD_CHANGE:"SELECT * FROM view_cambiosredce",
+    MYSQL_INVENTORY_QUERY_GET_VISITS_CONTROL:"SELECT * FROM view_visitascontrol",
+    MYSQL_INVENTORY_QUERY_GET_TOTAL_DEVICES_FROM_CARTEL:"SELECT totalce FROM sistema_fod_cableado.totalcentrosedcautivoscartel WHERE idcartel = ? ",
+    MYSQL_INVENTORY_QUERY_GET_TOTAL_ACCEPTANCES_FROM_CARTEL:"SELECT COUNT(distinct(Centro_Educativo)) as totalce FROM sistema_fod_cableado.view_estado_aceptaciones WHERE Cartel = ? AND Estado =?",
+}

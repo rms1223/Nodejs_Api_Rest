@@ -1,6 +1,6 @@
 const AXIOS = require('axios');
 const { get_token_dashboard } = require('../libs/arubatools');
-require("dotenv").config()
+require("dotenv").config();
 
 
 const get_token_aruba_dashboard = async() => {

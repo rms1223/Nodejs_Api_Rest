@@ -1,7 +1,7 @@
 require("dotenv").config()
+const route = require("../config/path_api_routes")
 const { get_mongodb_connection } = require("../config/connection_mongo_database");
 const AXIOS = require('axios');
-const { urlencoded } = require("express");
 
 async function get_device_information_from_code(code) {
     const mongodb_connection = await get_mongodb_connection();
@@ -47,12 +47,11 @@ async function get_network_clients_from_code(code) {
     if (id == 0) {
         return { "message": "No hay Registros" }
     }
-    const PATH_MERAKI_CLIENTS = `https://api.meraki.com/api/v1/networks/${id}/clients?perPage=1000`;
-    const response_query = await AXIOS.get(PATH_MERAKI_CLIENTS, {
+    const response_query = await AXIOS.get(route.API_MERAKI_CLIENTS, {
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'X-Cisco-Meraki-API-Key': 'ee0ef35b4d0f459b5491d697f90d053ec0c700dc'
+            'X-Cisco-Meraki-API-Key': process.env.API_MARAKI_TOKEN
         }
     });
     return response_query['data'];

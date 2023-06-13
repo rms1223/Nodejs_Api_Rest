@@ -20,7 +20,8 @@ app.listen(app.get("port"), (err) => {
         console.log("Servidor Iniciado en el Puerto " + app.get("port"));
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
+            
         });
     }
     

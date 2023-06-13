@@ -11,7 +11,7 @@ APP.get('/api/device/list', verify_token, async function(req, res) {
         res.json(equipos);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -23,7 +23,7 @@ APP.get('/api/device/serial/:serial', verify_token, async function(req, res, nex
         res.json(equipo);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -35,7 +35,7 @@ APP.get('/api/device/codigo/:codigo', verify_token, async function(req, res, nex
         res.json(devices);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 
@@ -46,7 +46,7 @@ APP.get('/api/clients/codigo/:codigo', verify_token, async function(req, res, ne
         res.json(clients);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -58,7 +58,7 @@ APP.get('/api/red/template/:codigo', async function(req, res, next) {
         res.json(template);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -68,7 +68,7 @@ APP.get('/api/estado/sistema/', async function(req, res, next) {
         res.json(await get_system_status());
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -78,7 +78,7 @@ APP.get('/api/device/totaldashboard/', async function(req, res, next) {
         res.json(await get_total_device_in_dashboard());
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 });
@@ -89,7 +89,7 @@ APP.get('/api/red/clientes/:codigo', async function(req, res, next) {
         res.json(devices);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     

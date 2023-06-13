@@ -24,7 +24,7 @@ app.post('/api/sendmail/', verify_token, async function(req, res) {
         });
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     

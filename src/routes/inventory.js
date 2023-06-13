@@ -12,7 +12,7 @@ app.get('/api/inventario/lista', verify_token, async function(req, res) {
         res.json(inventory);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -24,7 +24,7 @@ app.get('/api/inventario/Institucion/asignado/:codigo', verify_token, async func
         res.json(inventory);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -36,7 +36,7 @@ app.get('/api/inventario/institution/instalados/:codigo', verify_token, async fu
         res.json(inven_institu);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -48,7 +48,7 @@ app.get('/api/inventario/stock/:cartel', verify_token, async function(req, res, 
         res.json(inven_stock);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -60,7 +60,7 @@ app.get('/api/ce/rededucativa/:codigo', verify_token, async function(req, res, n
         res.json(ce);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -73,7 +73,7 @@ app.get('/api/carteles/', verify_token, async function(req, res, next) {
         res.json(inven_stock);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 });
@@ -84,7 +84,7 @@ app.get('/api/ce/informacion/:codigo', verify_token, async function(req, res, ne
         res.json(info_ce);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 });
@@ -95,7 +95,7 @@ app.get('/api/device/dashboard/:name', async function(req, res, next) {
         res.json(devices_count);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     

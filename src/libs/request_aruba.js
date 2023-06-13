@@ -8,7 +8,7 @@ const get_token_aruba_dashboard = async() => {
     headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Authorization': "bearer " + token
+        'Authorization': `bearer ${token}`
     }
 
     return headers;

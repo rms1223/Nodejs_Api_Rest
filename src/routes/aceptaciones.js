@@ -9,7 +9,7 @@ APP.get('/api/aceptaciones/list', verify_token, async function(req, res) {
         res.json(inventory);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 });
@@ -20,7 +20,7 @@ APP.get('/api/aceptaciones/:codigo', verify_token, async function(req, res) {
         res.json(inventory);
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
     
@@ -36,7 +36,7 @@ APP.post('/api/aceptaciones/', verify_token, async function(req, res) {
         res.json({ "Message": "Success" })
     } catch (error) {
         res.status(500).json({
-            "Message": "Error "+error,
+            "Message": `Error ${error}`,
         });
     }
 
